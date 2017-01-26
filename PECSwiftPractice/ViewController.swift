@@ -40,15 +40,16 @@ class ViewController: UIViewController {
         var optionalString: String? = "Hello"
         print(optionalString)
         
-        var optionalName: String? = "John Appleseed"
+        var optionalName: String? = "Inga"
         var greeting = "Hello!"
         
         if let name = optionalName {
             
             greeting = "Hello, \(name)"
+            print("greeting inside if: \(greeting)")
         }
         
-        
+        print("greeting after if: \(greeting)")
         
     }
 
